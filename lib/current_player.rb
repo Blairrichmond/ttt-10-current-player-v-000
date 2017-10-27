@@ -4,7 +4,7 @@ def turn_count(board)
     counter += 1
   if mark = 3
     return 3
-    
+
   end
 end
 end
