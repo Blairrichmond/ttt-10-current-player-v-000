@@ -7,6 +7,7 @@ def turn_count(board)
   if mark = 3
   return "#{counter}"
 end
+end
 
 def current_player(board)
   if 3 % 2
