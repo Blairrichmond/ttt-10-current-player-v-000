@@ -5,6 +5,7 @@ def turn_count(board)
     counter += 1
     return "#{counter}"
     end
+  end
 end
 
 def current_player(board)
