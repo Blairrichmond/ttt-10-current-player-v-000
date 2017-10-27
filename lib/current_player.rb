@@ -8,7 +8,6 @@ def turn_count(board)
 end
 
 def current_player(board)
-  "X" =
   if 3 % 2
     return "X"
   else
