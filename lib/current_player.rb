@@ -3,7 +3,7 @@ def turn_count(board)
     puts "#{mark}"
   end
   counter = 0
-  if ("#{mark}" = "X" || "O")
+  if ("#{mark}" (= "X" || "O"))
     counter += 1
   end
 end
