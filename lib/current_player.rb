@@ -4,7 +4,7 @@ def turn_count(board)
     puts "#{mark}"
     counter += 1
   end
-  if mark = 3
+  if "#{mark}" = 3
   return "#{counter}"
 end
 end
