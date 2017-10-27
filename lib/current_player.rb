@@ -1,6 +1,7 @@
 def turn_count(board)
   board.each do |mark|
     puts "#{mark}"
+  end
 end
 
 def current_player(board)
