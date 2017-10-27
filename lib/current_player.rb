@@ -4,13 +4,12 @@ def turn_count(board)
     if mark == "X" || mark == "O"
     counter += 1
   end
-  if board = "X"
-  return "#{counter}"
+  return counter
 end
 end
 
 def current_player(board)
-  "X" = 
+  "X" =
   if 3 % 2
     return "X"
   else
