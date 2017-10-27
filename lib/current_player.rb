@@ -10,7 +10,7 @@ end
 def current_player(board)
   if 3 % 2
     return "X"
-  else 
+  else
     return "O"
   end
 end
