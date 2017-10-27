@@ -3,6 +3,8 @@ def turn_count(board)
   board.each do |mark|
     puts "#{mark}"
     counter += 1
+    if mark = 3
+      return 3
   end
 end
 
