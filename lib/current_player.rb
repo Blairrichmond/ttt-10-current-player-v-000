@@ -4,7 +4,7 @@ def turn_count(board)
   end
   counter = 0
   if "#{mark}" = "X" || "O"
-    return 3
+    counter += 1
 end
 
 def current_player(board)
